@@ -14,10 +14,10 @@ addAtoms=,
 removeAtoms=,
 highlightAtoms=,
 createOrigpdb=False,
-createAUpdb=True,
-createUCpdb=True,
-createAUCpdb=True,
-createTApdb=True" > inp
+createAUpdb=False,
+createUCpdb=False,
+createAUCpdb=False,
+createTApdb=False" > inp
 echo " " > space
 cat line space inp > input00
 rm list line inp space
